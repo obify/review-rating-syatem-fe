@@ -3,7 +3,7 @@ import authHeader from "./auth-header";
 
 const API_URL = "https://api.escuelajs.co/api/v1";
 //const API_REVIEW_URL = "http://localhost:9090/rms/api/v1";
-const API_REVIEW_URL = "http://178.16.137.35:9090//rms/api/v1";
+const API_REVIEW_URL = "http://178.16.137.35:9090/rms/api/v1";
 
 const getAllProducts = () => {
   return axios.get(API_URL + "/products");
